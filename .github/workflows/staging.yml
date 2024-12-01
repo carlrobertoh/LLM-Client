@@ -22,7 +22,7 @@ jobs:
         # Build and dry-run maven-publish (metadata and pom, but no signing)
         run: ./gradlew build generateMetadataFileForMavenJavaPublication generatePomFileForMavenJavaPublication --no-daemon
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@0.29.0
         with:
           ignore-unfixed: true
           scan-ref: 'build/publications/mavenJava'
