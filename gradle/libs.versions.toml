@@ -1,5 +1,5 @@
 [versions]
-assertj = "3.26.3"
+assertj = "3.27.2"
 awaitility = "4.2.2"
 checkstyle = "10.15.0"
 commons-io = "2.16.1"
